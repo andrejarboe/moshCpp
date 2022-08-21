@@ -62,9 +62,16 @@ int main()
 
      //strings
      string name;
-     cout << "Enter your name: ";
-     getline(cin, name);
-     cout << name;
+     // cout << "Enter your name: ";
+     // getline(cin, name);
+     // cout << name;
+
+     //arrays
+     int numbers[] = {10, 20};
+     cout << endl;
+     cout << numbers[0] << endl
+          << numbers[1] << endl
+          << numbers[2] << endl;
 
 
      return 0;
